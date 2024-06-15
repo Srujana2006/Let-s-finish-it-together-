@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Finish It Together</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Page 1: Title Page -->
+    <div id="page1">
+        <header>
+            <h1>Let's Finish It Together</h1>
+        </header>
+        <main>
+            <button id="start-button">Get Started</button>
+        </main>
+    </div>
+
+    <!-- Page 2: Story Posting and Commenting Page -->
+    <div id="page2" style="display: none;">
+        <header>
+            <h1>Let's Finish It Together</h1>
+        </header>
+        <main>
+            <section id="story-upload">
+                <h2>Submit Your Story</h2>
+                <form id="story-form">
+                    <textarea id="story-input" placeholder="Paste your incomplete story here..." required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+            <section id="story-list">
+                <h2>Incomplete Stories</h2>
+                <div id="stories"></div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Let's Finish It Together. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
